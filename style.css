@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 112vh;   
+}
+.quote{
+    position: relative;
+    text-align: right;
+    padding-left: 700px;
+    padding-top: 200px;
+    padding-right: 200px;
+    color: white;
+}
+.quote p{
+    font-size: small;
+}
+.btn{
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(5, 91, 119);
+}
+
+
+/* section 01 */
+
+.section-1{
+    display:flex;
+}
+.manphoto img{
+     height:500px;
+}
+
+.ul li:before{
+    content: '\2713';
+    color: green;
+    } 
+    
+.ul li{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+
+.manphoto{
+    padding-left: 120px;
+    padding-top: 45px;
+}
+.my-failure{
+    padding-right:220px;
+    padding-top: 190px;
+    padding-left: 45px;
+}    
+        
+    
